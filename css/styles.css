@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+/*HEADINGS*/
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding: 50px 0 20px 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*TITLE SECTION*/
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*SECTIONS*/
+
+.white-section {
+background-color: #FFF;
+}
+
+.colored-section {
+background-color: #ff4c68;
+color: #FFF;
+}
+
+/*NAVIGATION BAR*/
+.navbar-brand {
+  font-size: 2.2rem;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+}
+
+.nav-item {
+  padding-right: 35px;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.navbar-nav {
+  padding-left: 485px;
+}
+
+.nav-link {
+  font-size: 1.03rem;
+}
+
+.btn-gplay {
+  margin-left: 10px;
+}
+
+.colpadtit {
+  padding-top: 55px;
+}
+
+.iphone {
+  width: 55%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+/*FEATURES SECTION*/
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.pfeatures {
+  color: #8f8f8f;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.icon {
+  font-size: 3rem;
+  padding-bottom: 15px;
+  color: #ef8172;
+}
+
+.icon:hover{
+  font-size: 3rem;
+  padding-bottom: 15px;
+  color: #ff4c68;
+}
+
+.sepcol {
+  padding-top: 75px;
+}
+
+/*TESTIMONIAL SECTION*/
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*PRESS SECTION*/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*PRICING SECTION*/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CALL TO ACTION */
+
+.footerbut {
+  padding-top: 3%;
+}
+
+.padcta {
+  padding-bottom: 100px;
+}
+
+/*FOOTER SECTION*/
+
+.smlogos {
+  margin: 0.5%;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  padding-top: 1%;
+  color: #8f8f8f;
+}
+
+.padfoot {
+  padding-bottom: 60px;
+}
+
+/*MEDIA QUERIES - RESPONSIVENESS*/
+@media (max-width: 1028px) {
+  .iphone {
+    width: 55%;
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+
+  }
+}
